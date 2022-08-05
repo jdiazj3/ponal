@@ -1,0 +1,89 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div ng-app="Homeapp" ng-controller="HomeController">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label>Id Turno</label>
+                        <input type="text" ng-model="turnos.id" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Consecutivo</label>
+                        <input type="password" ng-model="turnos.consecutivo" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>fecha</label>
+                        <input type="text" ng-model="turnos.fecha" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>hora</label>
+                        <input type="text" ng-model="turnos.hora" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>idOficina</label>
+                        <input type="text" ng-model="turnos.idOficina" class="form-control" />
+                    </div>
+					
+					<div class="form-group">
+                        <label>idOficina</label>
+                        <input type="text" ng-model="turnos.idOficina" class="form-control" />
+                    </div>
+					
+					<div class="form-group">
+                        <label>idOficina</label>
+                        <input type="text" ng-model="turnos.idOficina" class="form-control" />
+                    </div>
+					<div class="form-group">
+                        <label>idTipo</label>
+                        <input type="text" ng-model="turnos.idTipo" class="form-control" />
+                    </div>
+					
+					<div class="form-group">
+                        <label>idTipo</label>
+                        <input type="text" ng-model="turnos.idTipo" class="form-control" />
+                    </div>
+					<div class="form-group">
+                        <label>num_documento</label>
+                        <input type="text" ng-model="turnos.num_documento" class="form-control" />
+                    </div>
+					
+					<div class="form-group">
+                        <label>nombres</label>
+                        <input type="text" ng-model="turnos.nombres" class="form-control" />
+                    </div>
+					
+					<div class="form-group">
+                        <label>apellidos</label>
+                        <input type="text" ng-model="turnos.apellidos" class="form-control" />
+                    </div>
+					<div class="form-group">
+                        <label>idEstado</label>
+                        <input type="text" ng-model="turnos.idEstado" class="form-control" />
+                    </div>
+					
+                    <div class="form-group">
+                        <input type="button" class="btn btn-primary" ng-click="savedata()" value="{{btntext}}" />
+                    </div>
+                </div>
+				
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/AngularController/HomeAngularJS.js"></script>
+</body>
+</html>
